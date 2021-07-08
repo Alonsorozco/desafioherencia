@@ -55,5 +55,5 @@ b = DailyAppointment.new('Desafío Latam', 'Educación', 8, 15)
 c = OneTimeAppointment.new('Desafío Latam', 'Trabajo', 14, 30, 4, 6, 2019)
 
 pp c.occurs_on?(4,6,2019)
-# pp b.occurs_on?(8,15)
-# pp a.occurs_on?(23)
+pp b.occurs_on?(8,15)
+pp a.occurs_on?(23)
